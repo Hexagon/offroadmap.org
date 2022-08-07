@@ -33,7 +33,7 @@ sudo apt upgrade
 
 Swap is required to run certain commands if the server does not have enough RAM. Follow instructions at
 
-[https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-22-04]
+(https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-22-04)
 
 #### Prepare file structure and permissions
 
@@ -49,7 +49,7 @@ sudo chmod g+rwx /tiler
 
 Follow instructions at
 
-[https://switch2osm.org/serving-tiles/manually-building-a-tile-server-ubuntu-22-04-lts/]
+(https://switch2osm.org/serving-tiles/manually-building-a-tile-server-ubuntu-22-04-lts/)
 
 Make sure to put data in /tiler/data, cache in /tiler/cache, openstreetmap-carto in git/openstreetmap-carto etc, as the scripts assume these paths
 
@@ -59,4 +59,4 @@ Caches location is changed in `/etc/apache2/conf-enabled/renderd.conf` and `/etc
 
 ... by following this guide
 
-`https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-22-04`
+(https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-22-04)
