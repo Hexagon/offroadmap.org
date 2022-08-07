@@ -39,11 +39,15 @@ Swap is required to run certain commands if the server does not have enough RAM.
 
 All files and configuration are placed in /tiler, and all files should be accessible by the group tiler.
 
+```bash
 sudo mkdir /tiler
 sudo groupadd tiler
 sudo usermod -aG tiler nonrootusername
 sudo chgrp -R tiler /tiler
 sudo chmod g+rwx /tiler
+```
+
+Check out this repository in /tiler, to get the scripts
 
 #### Install mapnik, pgsql and mod_tile
 
