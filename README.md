@@ -59,8 +59,13 @@ Make sure to put data in /tiler/data, cache in /tiler/cache, openstreetmap-carto
 
 Caches location is changed in `/etc/apache2/conf-enabled/renderd.conf` and `/etc/renderd.conf`
 
+#### Add height data
+
+ToDo
+
 #### Add SSL certificates
 
 ... by following this guide
 
 (https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-22-04)
+
