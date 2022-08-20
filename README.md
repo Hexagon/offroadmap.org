@@ -47,6 +47,13 @@ sudo chgrp -R tiler /tiler
 sudo chmod g+rwx /tiler
 ```
 
+#### Add tools
+
+Osmosis is used for merging separate
+```bash
+sudo apt install osmosis
+```
+
 Check out this repository in /tiler, to get the scripts
 
 #### Install mapnik, pgsql and mod_tile
